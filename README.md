@@ -1,2 +1,2 @@
 # SilverWaffle
-calculator
+project
