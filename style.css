@@ -1,22 +1,45 @@
+body {
+  background-color: royalblue;
+}
+
 .content {
-  
+  border: solid;
+  background-color: grey;
+  box-shadow: 5px 5px 13px 5px #000000;
+  border-radius: 15px;
+  position: relative;
+  width: 300px;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
 }
 
 .heading {
   text-align: center;
-}
-
-.title1 {
-
+  font-family: Staatliches,cursive;
+  font-size: 40px;
 }
 
 .textbox {
-border: none;
-background-color: rgba(200, 200, 200, 0.5);
+  margin-left: 36px;
+  height: 12px;
+  border-color: black;
 }
 
 .submit {
-  margin-left: -3.5vh;
+  display: inline-block;
+  margin-left: -5px;
+  height: 18px;
+  background-color: black;
+  color: white;
   border: none;
-  background-color: rgba(250, 250, 250, 0.5)
+}
+
+.newItemContainer {
+  margin-left: 20px;
+}
+
+.listItems {
+  margin-left: 20px;
 }
