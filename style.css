@@ -1,10 +1,12 @@
 body {
-  background-color: royalblue;
+  background-color: #002054;
 }
 
 .content {
   border: solid;
-  background-color: grey;
+  background-color: #1f1f1f;
+  color: white;
+  border-color: black;
   box-shadow: 5px 5px 13px 5px #000000;
   border-radius: 15px;
   position: relative;
@@ -42,4 +44,13 @@ body {
 
 .listItems {
   margin-left: 20px;
+  margin-right: 20px;
+}
+
+.listPoint {
+  padding: 8px;
+  border: solid;
+  border-radius: 15px;
+  border-color: black;
+
 }

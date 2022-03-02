@@ -1,25 +1,25 @@
 class Todo {
-  constructor(textbox) {
-    this.textBox = textBox
-    this.submit = submit
-    this.listItem
+  constructor(textbox,submitButton,listItems) {
+    this.textbox = textbox;
+    this.submitButton = submitButton;
+    this.listItems = listItems;
   }
-}
-
-textBox() {
-
 }
 
 submit() {
 
 }
 
-listItem() {
-
+updateDisplay(){
+this.textbox
 }
 
-const textBox = document.querySelector('[data-textbox]')
-const submit = document.querySelector('[data-submit]')
-const listItem = document.querySelector('[data-list-item]')
+const textbox = document.querySelectorAll('[data-textbox]')
+const submitButton = document.querySelectorAll('[data-submit]')
+const listItems = document.querySelectorAll('[data-list-item]')
 
-const newToDo = new Todo(textBox, submit)
+submitButton.addEventListener('click', button => {
+  Todo.submit();
+  Todo.updateDisplay();
+}
+)
