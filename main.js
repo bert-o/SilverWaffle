@@ -10,8 +10,16 @@ submit() {
 
 }
 
+getText(str) {
+
+}
+
 updateDisplay(){
-this.textbox
+  if (str == '') {
+    return "Enter a task!"
+  } else {
+  return `${this.getText}`;  
+  }
 }
 
 const textbox = document.querySelectorAll('[data-textbox]')
